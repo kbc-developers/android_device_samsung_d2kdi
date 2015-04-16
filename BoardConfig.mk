@@ -26,6 +26,12 @@
 # inherit from the proprietary version
 -include vendor/samsung/d2kdi/BoardConfigVendor.mk
 
+# Kernel
+TARGET_KERNEL_CONFIG        := cyanogen_d2kdi_defconfig
+
+#KERNEL_CMDLINE (selinux permissive)
+BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom user_debug=31 zcache androidboot.bootdevice=msm_sdcc.1 androidboot.selinux=permissive
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := d2kdi,SCL21,scl21
 
