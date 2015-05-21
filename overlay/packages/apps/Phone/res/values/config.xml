@@ -16,6 +16,6 @@
 
 <resources>
     <!-- Sprint Message Wait Indicator Quirk -->
-    <bool name="sprint_mwi_quirk">true</bool>
+    <bool name="sprint_mwi_quirk">false</bool>
 
 </resources>

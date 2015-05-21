@@ -23,12 +23,12 @@
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-# Inherit from d2spr device
-$(call inherit-product, device/samsung/d2spr/device.mk)
+# Inherit from d2kdi device
+$(call inherit-product, device/samsung/d2kdi/device.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := full_d2spr
-PRODUCT_DEVICE := d2spr
-PRODUCT_BRAND := samsung
+PRODUCT_NAME := full_d2kdi
+PRODUCT_DEVICE := d2kdi
+PRODUCT_BRAND := KDDI
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_MODEL := SPH-L710
+PRODUCT_MODEL := SCL21

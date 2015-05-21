@@ -1,4 +1,4 @@
-$(call inherit-product, device/samsung/d2spr/full_d2spr.mk)
+$(call inherit-product, device/samsung/d2kdi/full_d2kdi.mk)
 
 # Enhanced NFC
 $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
@@ -7,11 +7,11 @@ $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=d2spr \
-    TARGET_DEVICE=d2spr \
-    BUILD_FINGERPRINT="samsung/d2spr/d2spr:4.1.2/JZO54K/L710VPBMD4:user/release-keys" \
-    PRIVATE_BUILD_DESC="d2spr-user 4.1.2 JZO54K L710VPBMD4 release-keys"
+    PRODUCT_NAME=d2kdi \
+    TARGET_DEVICE=d2kdi \
+    BUILD_FINGERPRINT="KDDI/SCL21/SCL21:4.1.2/JZO54K/SCL21KDBND1:user/release-keys" \
+    PRIVATE_BUILD_DESC="d2kdi-user 4.1.2 JZO54K SCL21KDBND1 release-keys"
 
-PRODUCT_NAME := cm_d2spr
-PRODUCT_DEVICE := d2spr
+PRODUCT_NAME := cm_d2kdi
+PRODUCT_DEVICE := d2kdi
 

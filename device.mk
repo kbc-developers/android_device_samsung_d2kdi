@@ -15,10 +15,10 @@
 #
 
 ## (2) Also get non-open-source specific aspects if available
-$(call inherit-product-if-exists, vendor/samsung/d2spr/d2spr-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/d2kdi/d2kdi-vendor.mk)
 
 ## overlays
-DEVICE_PACKAGE_OVERLAYS += device/samsung/d2spr/overlay
+DEVICE_PACKAGE_OVERLAYS += device/samsung/d2kdi/overlay
 
 ## common overlays
 DEVICE_PACKAGE_OVERLAYS += device/samsung/d2-common/overlay-cdma
