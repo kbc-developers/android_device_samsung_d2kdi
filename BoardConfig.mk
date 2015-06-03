@@ -30,6 +30,7 @@
 TARGET_OTA_ASSERT_DEVICE := d2kdi,m2kdi,D2KDI,scl21,SCL21
 
 # Kernel
+TARGET_KERNEL_SOURCE    := kernel/samsung/d2
 TARGET_KERNEL_CONFIG    := cyanogen_d2kdi_defconfig
 
 TARGET_BOARD_INFO_FILE ?= device/samsung/d2kdi/board-info.txt
