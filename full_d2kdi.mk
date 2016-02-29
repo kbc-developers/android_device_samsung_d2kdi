@@ -21,6 +21,10 @@
 # lines, full and maguro, hence its name.
 #
 
+# d2kdi audio
+PRODUCT_COPY_FILES += \
+    device/samsung/d2kdi/audio/snd_soc_msm_2x:system/etc/snd_soc_msm/snd_soc_msm_2x
+
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from d2kdi device
