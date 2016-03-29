@@ -35,5 +35,3 @@ BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom user_debug=31 zcache androidbo
 # Assert
 TARGET_OTA_ASSERT_DEVICE := d2kdi,SCL21,scl21
 
-TARGET_BOARD_INFO_FILE ?= device/samsung/d2kdi/board-info.txt
-
